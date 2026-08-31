@@ -204,7 +204,7 @@ export default function LandingPage() {
         {/* USER ROLES - ALL PROTECTED BY LOGIN GATE */}
         <section className="py-24 px-6 max-w-7xl mx-auto grid md:grid-cols-4 gap-6">
           {[
-            { role: 'Clinics', icon: Stethoscope, path: '/dashboard' },
+            { role: 'Clinics', icon: Stethoscope, path: '/clinic/dashboard' },
             { role: 'Owners', icon: Building2, path: '/owner/dashboard' },
             { role: 'Technicians', icon: ShieldCheck, path: '/tech/dashboard' },
             { role: 'Logistics', icon: Truck, path: '/logistics/dashboard' } 
