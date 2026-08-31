@@ -23,7 +23,7 @@ export default function LoginPage() {
   };
 
   const roles = [
-    { name: 'Clinic Portal', desc: 'Request & manage equipment', icon: Stethoscope, path: '/dashboard', color: 'bg-blue-50' },
+    { name: 'Clinic Portal', desc: 'Request & manage equipment', icon: Stethoscope, path: '/clinic/dashboard', color: 'bg-blue-50' },
     { name: 'Owner Portal', desc: 'List & track your assets', icon: Building2, path: '/owner/dashboard', color: 'bg-emerald-50' },
     { name: 'Technician', desc: 'Maintenance & verification', icon: ShieldCheck, path: '/tech/dashboard', color: 'bg-purple-50' },
     { name: 'Logistics', icon: Truck, desc: 'Transport & delivery', path: '/logistics/dashboard', color: 'bg-orange-50' }
